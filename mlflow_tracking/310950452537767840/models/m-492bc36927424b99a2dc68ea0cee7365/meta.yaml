@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/aimje/OneDrive/Documents/Labmentix/12_Capstone Project/mlflow_tracking/310950452537767840/models/m-492bc36927424b99a2dc68ea0cee7365/artifacts
+creation_timestamp: 1768886877381
+experiment_id: '310950452537767840'
+last_updated_timestamp: 1768886891147
+model_id: m-492bc36927424b99a2dc68ea0cee7365
+model_type: null
+name: model
+source_run_id: c5fceafbe16f4a7f97c3dcf305ca40e3
+status: 2
+status_message: null

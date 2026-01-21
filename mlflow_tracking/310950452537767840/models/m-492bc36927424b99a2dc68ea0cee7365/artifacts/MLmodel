@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/aimje/OneDrive/Documents/Labmentix/12_Capstone Project/mlflow_tracking/310950452537767840/models/m-492bc36927424b99a2dc68ea0cee7365/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.2
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+mlflow_version: 3.8.1
+model_id: m-492bc36927424b99a2dc68ea0cee7365
+model_size_bytes: 16545118
+model_uuid: m-492bc36927424b99a2dc68ea0cee7365
+prompts: null
+run_id: c5fceafbe16f4a7f97c3dcf305ca40e3
+utc_time_created: '2026-01-20 05:27:57.517000'

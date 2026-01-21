@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+mlflow_tracking/
+.git
+.gitignore
+.vscode/
+*.md
+dataset/
+charts/
+test_api.py
+mlflow_tracking.py

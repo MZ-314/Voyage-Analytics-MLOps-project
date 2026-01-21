@@ -1,0 +1,48 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: voyage-analytics-api
+  labels:
+    app: voyage-api
+    version: v1
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: voyage-api
+  template:
+    metadata:
+      labels:
+        app: voyage-api
+        version: v1
+    spec:
+      containers:
+      - name: voyage-api
+        image: voyage-analytics-api:v1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
+          name: http
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: voyage-analytics-service
+  labels:
+    app: voyage-api
+spec:
+  type: LoadBalancer
+  selector:
+    app: voyage-api
+  ports:
+  - port: 80
+    targetPort: 5000
+    protocol: TCP
+    name: http

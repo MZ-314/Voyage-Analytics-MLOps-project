@@ -1,0 +1,15 @@
+creation_timestamp: 1768886891219
+current_stage: None
+deployment_job_state: null
+description: null
+last_updated_timestamp: 1768886891219
+model_id: m-492bc36927424b99a2dc68ea0cee7365
+name: flight_price_predictor
+run_id: c5fceafbe16f4a7f97c3dcf305ca40e3
+run_link: null
+source: models:/m-492bc36927424b99a2dc68ea0cee7365
+status: READY
+status_message: null
+storage_location: file:C:/Users/aimje/OneDrive/Documents/Labmentix/12_Capstone Project/mlflow_tracking/310950452537767840/models/m-492bc36927424b99a2dc68ea0cee7365/artifacts
+user_id: null
+version: 1
