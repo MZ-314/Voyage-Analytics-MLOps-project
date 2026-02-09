@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/aimje/OneDrive/Documents/Labmentix/12_Capstone Project/mlflow_tracking/310950452537767840/c5fceafbe16f4a7f97c3dcf305ca40e3/artifacts
+end_time: 1768886891362
+entry_point_name: ''
+experiment_id: '310950452537767840'
+lifecycle_stage: active
+run_id: c5fceafbe16f4a7f97c3dcf305ca40e3
+run_name: RandomForest_Flight_Price
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1768886877158
+status: 3
+tags: []
+user_id: aimje

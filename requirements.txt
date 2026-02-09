@@ -1,0 +1,25 @@
+# Core ML Libraries
+scikit-learn==1.6.1
+pandas==2.2.0
+numpy==1.26.4
+
+# API Framework
+flask==3.0.0
+flask-cors==4.0.0
+
+# Production Server
+gunicorn==21.2.0
+
+# HTTP Requests
+requests==2.31.0
+
+# MLflow Tracking
+mlflow==2.16.2
+
+# Dashboard & Visualization
+streamlit==1.31.0
+plotly==5.18.0
+
+# Additional Dependencies
+python-dateutil==2.8.2
+pytz==2024.1
